@@ -1,1 +1,6 @@
-xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean -scheme DVIA-v2
+
+2026-05-06 12:51:01.915 xcodebuild[12251:13148911] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-05-06 12:51:01.918 xcodebuild[12251:13148911] Writing error result bundle to /var/folders/46/32jmg48x7t94cd8l9fj2sbdm0000gn/T/ResultBundle_2026-06-05_12-51-0001.xcresult
+xcodebuild: error: Found no destinations for the scheme 'DVIA-v2' and action clean.
